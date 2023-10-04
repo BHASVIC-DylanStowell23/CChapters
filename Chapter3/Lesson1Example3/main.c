@@ -2,20 +2,15 @@
 
 int main()
 {
-    float initialNumber = 0;
-    float number = 0;
+    int initialNumber = 0;
+    int number = 0;
     char magicNum = 'n';
-
-    printf("Enter a number \n");
-    scanf("%f", number);
-    initialNumber = number;
 
     do
     {
         printf("Enter a number \n");
-        scanf("%f", number);
+        scanf("%d", &number);
         initialNumber = number;
-
         number = number / 7;
         number = number * 5;
         if (number < 100)
@@ -31,7 +26,7 @@ int main()
         }
         if (magicNum == 'n')
         {
-            printf("%d is not a magic number", initialNumber);
+            printf("%d is not a magic number \n", initialNumber);
         }
     } while (magicNum != 'y');
 

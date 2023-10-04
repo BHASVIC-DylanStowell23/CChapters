@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dylan.stowell23/OneDrive - BHASVIC/Computer Science/C Code/Chapter3/Lesson1Example3
+# Install script for directory: C:/Users/dylan.stowell23/ComputerScience/CChapters/Chapter3/Lesson1Example3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/dylan.stowell23/OneDrive - BHASVIC/Computer Science/C Code/Chapter3/Lesson1Example3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dylan.stowell23/ComputerScience/CChapters/Chapter3/Lesson1Example3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
