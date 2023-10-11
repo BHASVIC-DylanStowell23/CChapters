@@ -4,29 +4,24 @@
 int main()
 {
     int i;
-    int mistake = 0;
-    int correct = 0;
-    char answer[8] = {"Kitchen"};
+    int counter = 0;
+    char answer[8] = {"kitchen"};
     char word[8] = {"???????"};
     char guess[10];
 
     do
     {
         printf("Guess the word: ");
-        scanf("%s", guess);
+        gets(guess);
 
-        for (i==0; i>10; i++)
+        for (i==0; i<10; i++)
         {
             if (guess[i] == answer[i])
             {
                 word[i] = answer[i];
-                correct = 1;
             }
         }
-        if (correct = 0)
-        {
-            mistake += 1;
-        }
+        counter += 1;
         printf("%s\n", word);
-    } while (mistake < 5);
+    } while (counter < 5 && word != "kitchen");
 }
