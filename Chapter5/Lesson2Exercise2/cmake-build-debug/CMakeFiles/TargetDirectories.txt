@@ -1,0 +1,3 @@
+C:/Users/dylan.stowell23/ComputerScience/CChapters/Chapter5/Lesson2Exercise2/cmake-build-debug/CMakeFiles/Lesson2Exercise2.dir
+C:/Users/dylan.stowell23/ComputerScience/CChapters/Chapter5/Lesson2Exercise2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dylan.stowell23/ComputerScience/CChapters/Chapter5/Lesson2Exercise2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
