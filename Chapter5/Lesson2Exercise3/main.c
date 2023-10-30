@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int add(int num1, int num2);
-int sub(int num1, int num2);
-int mult(int num1, int num2);
-int div(int num1, int num2);
+float add(float num1, float num2);
+float sub(float num1, float num2);
+float mult(float num1, float num2);
+float div(float num1, float num2);
 
 int main()
 {
@@ -38,30 +38,30 @@ int main()
             break;
     }
 
-    printf("%f %c %f = %f", num1, operator,num2, output);
+    printf("%.2f %c %.2f = %.2f", num1, operator,num2, output);
 }
 
-int add(int num1, int num2)
+float add(float num1, float num2)
 {
-    int x;
+    float x;
     x = num1 + num2;
     return x;
 }
-int sub(int num1, int num2)
+float sub(float num1, float num2)
 {
-    int x;
-    x = num1 + num2;
+    float x;
+    x = num1 - num2;
     return x;
 }
-int mult(int num1, int num2)
+float mult(float num1, float num2)
 {
-    int x;
-    x = num1 + num2;
+    float x;
+    x = num1 * num2;
     return x;
 }
-int div(int num1, int num2)
+float div(float num1, float num2)
 {
-    int x;
-    x = num1 + num2;
+    float x;
+    x = num1 / num2;
     return x;
 }

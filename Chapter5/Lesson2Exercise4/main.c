@@ -1,28 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-void revWord(char *revWord);
+int editScores(int x, int i);
+int printScores();
 
-main ()
+int main ()
 {
-    char word[5];
+    int scores[6];
+    int i;
+    for (i=0; i<5; i++)
+    {
+        printf("Enter score %d: ", i+1);
+        scanf("%d", &scores[i]);
 
-    printf("Enter a 4 letter word:");
-    scanf("%s", word);
-    printf("Before reverse, word is : %s\n", word );
-    revWord(word);
-    printf("After reverse, word is : %s\n", word );
+        if(scores[i] > 75 || scores[i] < 0)
+        {
+            printf("Score invalid\n");
+        }
+        else
+        {
+            editScores(int scores[i], int i);
+        }
+    }
 }
 
-void revWord(char *revWord)
+int editScores(int x, int i)
 {
-    char tempWord[5];
-    int j=0;
-    for(int i=3;i>=0;i--){
-        tempWord[j]= revWord[i];
-        j++;
+    if (x < 20)
+    {
+        return 0;
     }
-    tempWord[4]=revWord[4];
-    strcpy(revWord,tempWord);
 }
